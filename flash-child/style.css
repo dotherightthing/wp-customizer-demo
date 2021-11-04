@@ -1,0 +1,42 @@
+/*
+ Theme Name:   Flash Child
+ Theme URI:    https://github.com/dotherightthing/wp-customizer-demo/flash-child/
+ Description:  Flash Child Theme
+ Author:       Dan Smith
+ Author URI:   https://dotherightthing.co.nz/
+ Template:     flash
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         demo
+ Text Domain:  flash-child
+*/
+
+/* Test CSS variables */
+
+#flash-child-css-variables-demo>* {
+    font-family: monospace;
+    font-size: 1em;
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+}
+
+#flash-child-css-variables-demo>*:first-child {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#flash-child-css-variables-demo>*:first-child::after {
+    content: ":";
+}
+
+@media screen and (min-width: 62.5em) {
+    #flash-child-css-variables-demo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+}
