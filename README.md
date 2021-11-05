@@ -28,7 +28,7 @@ The WordPress Customizer is helpful for:
 The WordPress Customizer is unhelpful for:
 
 * clients who will refactor their parent theme customisations into a child theme one day (see: [Make WordPress Core - Child theme does not inherit previous customizer settings from parent theme](https://core.trac.wordpress.org/ticket/27177))
-* clients who don't want to avoid repetition when setting up clone sites
+* clients who want to avoid repetition when setting up clone sites
 
 I thought of several solutions to this:
 
